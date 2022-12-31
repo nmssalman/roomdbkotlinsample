@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:id="@+id/textID"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <TextView
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/textFirstName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="First Name" />
+
+    <TextView
+        android:maxLines="5"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/textLastName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="Last Name" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/textAge"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:hint="Age" />
+</LinearLayout>
