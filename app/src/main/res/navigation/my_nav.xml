@@ -36,6 +36,6 @@
             app:destination="@id/listFragment" />
         <argument
             android:name="user"
-            app:argType="com.nmssalman.sampleroomdb.fragments.dataclasses.User" />
+            app:argType="com.nmssalman.sampleroomdb.dataclasses.User" />
     </fragment>
 </navigation>

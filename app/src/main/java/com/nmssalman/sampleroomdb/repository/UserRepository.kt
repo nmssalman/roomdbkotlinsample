@@ -1,8 +1,8 @@
 package com.nmssalman.sampleroomdb.repository
 
 import androidx.lifecycle.LiveData
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
-import com.nmssalman.sampleroomdb.fragments.dao.UserDao
+import com.nmssalman.sampleroomdb.dataclasses.User
+import com.nmssalman.sampleroomdb.dao.UserDao
 
 class UserRepository(private val userDao: UserDao) {
     val readAllData: LiveData<List<User>> = userDao.readAllData()

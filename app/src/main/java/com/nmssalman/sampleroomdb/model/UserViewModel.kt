@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
+import com.nmssalman.sampleroomdb.dataclasses.User
 import com.nmssalman.sampleroomdb.repository.UserRepository
 import com.nmssalman.sampleroomdb.roomdb.UserDatabase
 import kotlinx.coroutines.Dispatchers

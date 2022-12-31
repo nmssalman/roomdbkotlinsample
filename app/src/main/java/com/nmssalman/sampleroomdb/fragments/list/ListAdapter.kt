@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.nmssalman.sampleroomdb.R
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
+import com.nmssalman.sampleroomdb.dataclasses.User
 import kotlinx.android.synthetic.main.item_list.view.*
 
 class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {

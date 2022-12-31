@@ -1,8 +1,8 @@
-package com.nmssalman.sampleroomdb.fragments.dao
+package com.nmssalman.sampleroomdb.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
+import com.nmssalman.sampleroomdb.dataclasses.User
 
 @Dao
 interface UserDao {

@@ -1,4 +1,4 @@
-package com.nmssalman.sampleroomdb.fragments.dataclasses
+package com.nmssalman.sampleroomdb.dataclasses
 
 import android.os.Parcelable
 import androidx.room.Entity

@@ -9,7 +9,7 @@ import android.widget.Button
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.nmssalman.sampleroomdb.R
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
+import com.nmssalman.sampleroomdb.dataclasses.User
 import com.nmssalman.sampleroomdb.model.UserViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 

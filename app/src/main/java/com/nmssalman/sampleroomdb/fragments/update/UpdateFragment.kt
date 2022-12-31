@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.nmssalman.sampleroomdb.R
 import com.nmssalman.sampleroomdb.model.UserViewModel
-import com.nmssalman.sampleroomdb.fragments.dataclasses.User
+import com.nmssalman.sampleroomdb.dataclasses.User
 import kotlinx.android.synthetic.main.fragment_update.*
 import kotlinx.android.synthetic.main.fragment_update.editFirstName
 import kotlinx.android.synthetic.main.fragment_update.editLastName
