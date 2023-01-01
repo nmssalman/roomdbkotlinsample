@@ -26,6 +26,10 @@ class ListFragment : Fragment() {
             findNavController().navigate(R.id.action_listFragment_to_addFragment)
         }
 
+        view.findViewById<FloatingActionButton>(R.id.api).setOnClickListener {
+            findNavController().navigate(R.id.retrofitFragment)
+        }
+
         view.findViewById<FloatingActionButton>(R.id.deleteAllUsers).setOnClickListener {
             mUserViewModel.deleteAllUsers()
         }

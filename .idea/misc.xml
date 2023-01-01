@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/fragment_list.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/fragment_retrofit.xml" value="0.21240942028985507" />
         <entry key="app/src/main/res/layout/fragment_update.xml" value="0.175" />
         <entry key="app/src/main/res/layout/item_list.xml" value="0.1793478260869565" />
+        <entry key="app/src/main/res/layout/item_retrofit.xml" value="0.21240942028985507" />
       </map>
     </option>
   </component>

@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import com.nmssalman.sampleroomdb.R
@@ -31,15 +32,16 @@ class AddFragment : Fragment() {
     }
 
     private fun insertDataToDatabase() {
-        val firstName = editFirstName.text.toString()
-        val lastName = editLastName.text.toString()
-        val age = editAge.text.toString()
+            val firstName = editFirstName.text.toString()
+            val lastName = editLastName.text.toString()
+            val age = editAge.text.toString()
 
-        if(inputNullCheck(firstName, lastName, age)){
-            val user = User(0, firstName, lastName, age.toInt())
-            mUserViewModel.addUser(user)
-            findNavController().navigate(R.id.listFragment)
-        }
+            if (inputNullCheck(firstName, lastName, age)) {
+                val user = User(0, firstName, lastName, age.toInt())
+                mUserViewModel.addUser(user)
+                Toast.makeText(requireContext(), "Successfully Added!", Toast.LENGTH_SHORT).show()
+                findNavController().navigate(R.id.listFragment)
+            }
     }
 
     private fun inputNullCheck(firstName: String, lastName: String, age: String): Boolean {

@@ -38,4 +38,9 @@
             android:name="user"
             app:argType="com.nmssalman.sampleroomdb.dataclasses.User" />
     </fragment>
+    <fragment
+        android:id="@+id/retrofitFragment"
+        android:name="com.nmssalman.sampleroomdb.fragments.retrofit.RetrofitFragment"
+        android:label="fragment_retrofit"
+        tools:layout="@layout/fragment_retrofit" />
 </navigation>

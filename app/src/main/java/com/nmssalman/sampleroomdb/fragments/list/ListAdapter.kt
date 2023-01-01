@@ -1,5 +1,6 @@
 package com.nmssalman.sampleroomdb.fragments.list
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,8 +30,6 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
                 textAge.text = age.toString()
                 textID.text = id.toString()
             }
-
-
         }
         holder.itemView.row.setOnClickListener {
             val i = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
